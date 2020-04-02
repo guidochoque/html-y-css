@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <title>Brand</title>
+</head>
+  <body>
+    <!-- aqui empieza el navbar -->
+    <nav class="fadeInDown">
+      <div class="container_index">
+        <div class="brand_image">
+          <a href="index.html">
+            <img src="images/logo.png" alt="">
+          </a>
+        </div>
+        <div class="nav_options">
+          <ul>
+            <li><a href="faq.html">Faqs</a></li>
+            <li><a href="producto.html">Producto y Descripción</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- aqui termina el navbar -->
+    <!-- aqui inicia formulario venta -->
+    <div class="container">
+      <div class="row row_pago">
+        <div class="col-4">
+          <div class="modulo_pago">
+            <div class="modulo_pago_images">
+              <img src="images/box1.png" alt="">
+            </div>
+            <h3>
+              Producto 1
+            </h3>
+            <p>
+              Este producto es un producto increíble, no se que haces viendo que lo puedes tener
+            </p>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="modulo_pago">
+            <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5JEZJVXUPM6PE" method="post">
+              <!-- <input type="hidden" name="first_name" value="John">
+              <input type="hidden" name="zip" value="19312">
+              <input type="hidden" name="night_phone_a" value="610">
+              <input type="hidden" name="email" value="jdoe@zyzzyu.com"> -->
+              <label for="name">Nombre</label>
+              <br>
+              <input type="text" placeholder="" name="name" class="data">
+              <br>
+              <label for="email">E-mail</label>
+              <br>
+              <input type="text" placeholder="" name="email" class="data">
+              <br>
+              <label for="phone">Teléfono</label>
+              <br>
+              <input type="text" placeholder="" name="phone" class="data">
+              <br>
+              <input type="submit" class="main_button" name="submit" value="Confirmar Pago">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- aqui termina formulario venta -->
+    <!-- aqui empieza el footer -->
+    <footer>
+      <div class="container_index">
+        <div class="terminos">
+          <a href="terminos.html">TÉRMINOS Y CONDICIONES</a>
+        </div>
+        <div class="contact">
+          <a href="mailto:guido.gonext@gmail.com">GUIDO.GONEXT@GMAIL.COM</a>
+        </div>
+      </div>
+    </footer>
+    <!-- aqui termina el footer -->
+  <script src="scripts/script.js"></script>
+  </body>
+</html>

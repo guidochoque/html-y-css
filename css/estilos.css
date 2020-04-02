@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+                  /* Variables */
+:root {
+  --green-color: #9EDC4B;
+  --white-color: white;
+  --black-color: black;
+  /* Tipografía */
+  --normal: 12px;
+  /* Espaciado */
+  --space: 10px;
+  /* Box Shadow */
+  --box: 0px 0px 5px 5px #DFDFDF;
+}
+                  /* Variables */
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container_index {
+  max-width: 1024px;
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: auto;
+  /* flex-wrap: inherit; */
+}
+
+nav {
+  display: flex;
+  background-color: var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: var(--white-color);
+}
+
+                      /* Main section */
+.main_section {
+  padding: 15% 10%;
+  text-align: center;
+}
+
+.products{
+  background-image: url("../images/curve.png");
+  height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+}
+
+.product {
+  padding: var(--space);
+  margin-top: -260px;
+  width: 50%;
+}
+
+.product .content {
+  background-color: var(--white-color);
+  padding: var(--space);
+  box-shadow: var(--box);
+}
+/* ya esta */
+.img_content {
+  text-align: center;
+}
+
+.img_content img{
+  width: 100%;
+}
+
+.main_button {
+  background-color: var(--green-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: 15px;
+  color: var(--white-color);
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover {
+  background-color: #5e9e22;
+}
+
+.benefits {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.benefit {
+  max-width: 20%;
+  padding: 10% var(--space);
+}
+
+.benefit h3{
+  margin: 0;
+  padding: var(--space);
+  text-align: center;
+}
+
+.benefit p{
+  margin: 0;
+  padding: var(--space);
+  text-align: center;
+}
+
+.mentions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.mention {
+  max-width: 300px;
+  margin: 10px;
+  box-shadow: var(--box);
+}
+
+.img_mention img{
+  width: 100%;
+}
+
+.mention h3{
+  margin: 0;
+  padding: var(--space);
+}
+
+.mention p{
+  margin: 0;
+  padding: var(--space);
+}
+
+#title_mentions {
+  text-align: center;
+}
+
+hr{
+  opacity: .2;
+}
+
+label{
+  font-size: var(--normal);
+}
+
+
+/* Estilos para footer (fin) */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--normal);
+  background: var(--black-color);
+  color: var(--white-color);
+  padding: var(--space);
+  height: 30px;
+}
+.contact a{
+  color: var(--green-color)
+}
+.terminos a{
+  color: var(--green-color)
+}
+/* Estilos para footer (inicio) */
+
+/* Estilos para página productos (inicio) */
+.product_2 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product_2, .row{
+  width: 80%;
+  margin: auto;
+}
+.product_2, .row, .col-8{
+  margin: auto;
+}
+.title_products{
+  width: 80%;
+  margin: 0px auto;
+}
+/* Estilos para página productos (fin) */
+
+/* Estilos para página ventas (inicio) */
+.row_pago{
+  padding: 40px 0;
+}
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+.modulo_pago_images{
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+}
+.modulo_pago_images img{
+  width: 100%;
+}
+
+.data{
+  margin: var(--space) 0;
+  width: 100%;
+  height: 35px;
+  border: 1px solid #DFDFDF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 0px 10px;
+}
+/* Estilos para página ventas (fin) */
+
+/* Estilos para página ventas (inicio) */
+.container, .terminos p{
+  text-align: justify;
+}
+/* Estilos para página ventas (fin) */
